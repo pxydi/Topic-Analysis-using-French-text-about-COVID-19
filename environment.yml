@@ -1,0 +1,21 @@
+name: text-workshop
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - jupyterlab
+  - notebook
+  - matplotlib
+  - python=3.9
+  - seaborn
+  - scikit-learn
+  - nltk
+  - beautifulsoup4
+  - spacy
+  - wordcloud
+  - pip
+  - pip:
+    - gensim==3.8
+    - contractions
+    - "https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.0.0/fr_core_news_sm-3.0.0.tar.gz#egg=fr_core_news_sm==3.0.0"
